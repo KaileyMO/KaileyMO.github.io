@@ -31,20 +31,20 @@ Programming Projects
 Ethics Papers
 -------------
 
-### [Paper 1 Title](/pdf/sample_presentation.pdf)
+### [Ethics Paper CSCI 325](/pdf/Obj-Orient_Ethics_Paper.pdf)
 
--   **Class:**  
--   **Grade:**
+-   **Class: Object-Oriented Programming (CSCI 325)**  
+-   **Grade: 100**
 
-### [Paper 2 Title](/pdf/sample_presentation.pdf)
+### [Ethics Paper CSCI 235](/pdf/Proc_Prog_Ethics_Paper.pdf)
 
--   **Class:** 
--   **Grade:**
+-   **Class: Procedural Programming (CSCI 235)** 
+-   **Grade: 100**
 
-### [Paper 3 Title](/pdf/sample_presentation.pdf)
+### [Ethics Paper CSCI 301](/pdf/Scripting_Ethics_Paper.pdf)
 
--   **Class:** 
--   **Grade:**
+-   **Class: Scripting Languages (CSCI 301)** 
+-   **Grade: 100**
 
 ---
 
