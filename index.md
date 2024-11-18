@@ -12,14 +12,14 @@ Programming Projects
 ![Project 1 Thumbnail Name](images/puzzle_game_start.png)
 
 ---
-### [Project 2 Title | CSCI 315](project2)
+### [Webscraping Program | CSCI 301](project2)
 
-![Project 2 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Project 2 Thumbnail Name](images/webscraping_icon.png)
 
 ---
-### [Project 3 Title | CSCI 325](project3)
+### [Statistics Program | CSCI 409](project3)
 
-![Project 3 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Project 3 Thumbnail Name](images/first_image.png)
 
 ---
 ### [Project 4 Title | CSCI 332](project4)
