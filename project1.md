@@ -14,6 +14,7 @@ Puzzle Game
 This program is a 2-D puzzle game created in Java code. It contains three levels; each level contains a yellow key that the player must unlock by completing each level's unique puzzle. Once the player collects the level's key, a black door appears and the player goes through the door and to the next level. The player completes these puzzles by moving left, right, and jumping like in typical platformer games.
 
 Controls:
+
 Move left- A
 Move right- D
 Jump- W
