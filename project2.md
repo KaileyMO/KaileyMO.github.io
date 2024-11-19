@@ -29,9 +29,7 @@ If the programming language does not require compilation, the update the heading
 
 ## UI Design
 
-Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
-
-This project prints information to the screen. After running the program, text is displayed that the user can analyze (Fig 1).
+This project prints information to the screen. It looks through the list of jobs from the website [pythonjobs.github.io](https://pythonjobs.github.io/), and picks out three favored jobs from the list. After running the program, the lists are displayed that the user can analyze (Fig 1).
 
 ![screenshot](images/webscraping_icon.png)  
 Fig 1. The display screen
