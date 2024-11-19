@@ -1,14 +1,13 @@
 [Back to Portfolio](./)
 
-Project 1 Title
+Puzzle Game
 ===============
 
--   **Class:** 
--   **Grade:** 
--   **Language(s):** 
--   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
-    (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
-    [private](https://github.com/KaileyMO/Puzzle-Game/tree/main)
+-   **Class: Object-Oriented Programming CSCI 325** 
+-   **Grade: 90** 
+-   **Language(s): Java** 
+-   **Source Code Repository:** [features/mastering-markdown](https://github.com/KaileyMO/Puzzle-Game/tree/main)  
+    (Please [email me](mailto:kmowens@csustudent.net?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
