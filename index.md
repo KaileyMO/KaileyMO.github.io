@@ -22,7 +22,7 @@ Programming Projects
 ![Project 3 Thumbnail Name](images/first_image.png)
 
 ---
-### [Project 4-In Progress with Permission from Instructor | CSCI 332](project4)
+### [Project 4-In Progress with Permission from Instructor](project4)
 
 ![Project 4 Thumbnail Name](images/dummy_thumbnail.jpg)
 
