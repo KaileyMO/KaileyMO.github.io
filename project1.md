@@ -8,6 +8,7 @@ Project 1 Title
 -   **Language(s):** 
 -   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
     (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
+    [private](https://github.com/KaileyMO/Puzzle-Game/tree/main)
 
 ## Project description
 
