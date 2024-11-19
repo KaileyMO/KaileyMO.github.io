@@ -4,7 +4,7 @@ Portfolio
 Programming Projects
 --------------------
 
-*For access to my private project repositories, please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) with the subject line, GitHub Access.
+*For access to my private project repositories, please [email me](mailto:kmowens@csustudent.net?subject=GitHub%20Access) with the subject line, GitHub Access.
 
 ---
 ### [Puzzle Game Program | CSCI 325](project1)
@@ -22,7 +22,7 @@ Programming Projects
 ![Project 3 Thumbnail Name](images/first_image.png)
 
 ---
-### [Project 4 Title | CSCI 332](project4)
+### [Project 4-In Progress with Permission from Instructor | CSCI 332](project4)
 
 ![Project 4 Thumbnail Name](images/dummy_thumbnail.jpg)
 
