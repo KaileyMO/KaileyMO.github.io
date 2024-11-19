@@ -51,10 +51,10 @@ Ethics Papers
 Presentations
 -------------
 
-### [Presentation 1 Title](/pdf/sample_presentation.pdf)
+### [Vehicle and Crime​ Python Analysis Presentation](/pdf/AIProj1Slides.pdf)
 
-- **Class:** 
-- **Grade:**
+- **Class: Fund of Artificial Intelligence (CSCI 409)** 
+- **Grade: 100**
 
 
 ### [Presentation 2 Title](/pdf/sample_presentation.pdf)
