@@ -6,7 +6,7 @@ Puzzle Game
 -   **Class: Object-Oriented Programming CSCI 325** 
 -   **Grade: 90** 
 -   **Language(s): Java** 
--   **Source Code Repository:** [features/mastering-markdown](https://github.com/KaileyMO/Puzzle-Game/tree/main)  
+-   **Source Code Repository:** [Puzzle Code](https://github.com/KaileyMO/Puzzle-Game/tree/main)  
     (Please [email me](mailto:kmowens@csustudent.net?subject=GitHub%20Access) to request access.)
 
 ## Project description
@@ -34,7 +34,7 @@ If the programming language does not require compilation, the update the heading
 
 Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
 
-###Level 1:
+### Level 1:
 
 The first level requires a button to be pressed for the key to appear. The player will jump up to the lower platform:
 
