@@ -33,14 +33,8 @@ Almost every program requires user interaction, even command-line programs. Incl
 
 This project prints information to the screen. After running the program, text is displayed that the user can analyze (Fig 1).
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
-
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
-
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
+![screenshot](images/webscraping_icon.png)  
+Fig 1. The display screen
 
 ## 3. Additional Considerations
 
