@@ -47,6 +47,10 @@ There are three levels. The game revolves around this 2-D animated setup (Fig 4)
 ![screenshot](images/puzzle_game_start.png)  
 Fig 4. Game starting screen.
 
+Before the levels, pressing shift opens up a menu screen. Pressing "Reset" will reset the levels and pressing "Exit" will close the program and stop its run.
+
+![screenshot](images/puzzleImages/menuScreen.png)  
+
 ### Level 1:
 
 The first level requires a button to be pressed for the key to appear. The player will jump (Fig 5) up to the lower platform (Fig 6):
