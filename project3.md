@@ -13,6 +13,8 @@ Data Analysis
 
 This program collects data from a [government website](https://catalog.data.gov/dataset/) and creates analytical graphs from this information. The primary focus is on two different datasets to be analyzed: electronic vehicle statistics and crime rate. The electronic vehicle data is from the State of Washington and the crime rate data is from the City of Los Angelos. Four total graphs are created and the two datasets both get two graphs each. For the electronic vehicles, the first graph analyzes the model year by electronic range and the second graph analyzes the base MSRP by electronic range. The first crime statistics graph analyzes victim amount by sex and the second crime data graph analyzes victim amount by age and race.
 
+Additionally, this program collects the required data by downloading two csv files to your computer in the same location of the .py file. They will appear in this location and be called "data1" and "data2".
+
 ## How to compile and run the program
 
 To run this python program, open up an operating system that runs python and go to the folder containing the code file. For an operating system, type something like this to access and then run the program:
@@ -93,8 +95,6 @@ Fig 6. Output by ages and races by victim count.
 
 ## 3. Additional Considerations
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+This program collects the required data by downloading two csv files to your computer in the same location of the .py file. Downloading these datasets will cause the program to run much slower, so if the two csv files are already downloaded, the second to last line in the .py code can be commented out with a # for the code to finish running much quicker.
 
 [Back to Portfolio](./)
