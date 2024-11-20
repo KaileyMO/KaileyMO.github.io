@@ -27,17 +27,17 @@ To run this program, your device must have Java installed. This program is creat
 
 Assuming Netbeans is the preferred method for compiling and running this program, after its installation, open the application and drag the folder of the unzipped source code for this project into the starter Netbeans space (Fig 1).
 
-![screenshot](images/netbeanInstallation)  
+![screenshot](images/netbeanInstallation.png)  
 Fig 1. Drag the code folder into Netbeans.
 
 Access the Puzzle_Game_GUI_Finished -> Source Packages -> <default package> and click on one of the .java files, such as Panel.java. This opens the class's code and will run the project it is connected to (Fig 2).
 
-![screenshot](images/netbeanInstallation2)  
+![screenshot](images/netbeanInstallation2.png)  
 Fig 2. Opens a file from the project.
 
 Click the green arrow at the top of the program to run it (Fig 3).
 
-![screenshot](images/netbeanInstallation3)  
+![screenshot](images/netbeanInstallation3.png)  
 Fig 3. Runs project.
 
 ## UI Design
