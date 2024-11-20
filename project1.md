@@ -155,4 +155,7 @@ Additionally, this executable may require Java JDK 20 to be run on. That may be 
 
 Be aware that the third level is not in the Puzzle Game GUI tab, but instead is composed of text to screen. The user will need to temporarily leave GUI and go to where the program is running to complete the last puzzle with text.
 
+
+As this was a group project, my main contribution is in the Panel file for all the functions until setKeyBindings(), and also the bounceAround() function in the MovableObject file. I created level 2 and combined the three levels so that they lead into each other
+
 [Back to Portfolio](./)
