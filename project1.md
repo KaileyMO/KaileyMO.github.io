@@ -92,18 +92,18 @@ Fig 13. The starting position of the second level.
 
 As the color of the bouncing cube is first changed, another bouncing square is introduced until both the squares get their colors changed enough for all the four squares to begin bouncing (Fig 14). Colors change as the player touches the squares, so the player will jump around until all the squares are at the correct colors.
 
-![screenshot](images/puzzleImages/ten.png)
+![screenshot](images/puzzleImages/ten.png)  
 Fig 14. Game running with the player trying to accurately convert the square colors.
 
-![screenshot](images/puzzleImages/eleven.png)
+![screenshot](images/puzzleImages/eleven.png)  
 Fig 15. Additional action shot of player attempting to change the square colors.
 
 After the colors are all matching (1 yellow, 1 red, 2 purples), all the squares turn permanently yellow and a key appears on the floor (Fig 16). Collecting the key opens the black door and adds +1 to the key counter at the top right of the game screen (Fig 17).
 
-![screenshot](images/puzzleImages/twelve.png)
+![screenshot](images/puzzleImages/twelve.png)  
 Fig 16. Puzzle completed and a key has appeared.
 
-![screenshot](images/puzzleImages/thirteen.png)
+![screenshot](images/puzzleImages/thirteen.png)  
 Fig 17. Player collected the key.
 
 The player has completed the puzzle. Going through the open door leads to the third and final puzzle.
@@ -112,27 +112,27 @@ The player has completed the puzzle. Going through the open door leads to the th
 
 This third puzzle is unique because it does not take place in the typical GUI format. Instead, temporarily leave the GUI and go to the text editor from where the program has been run. The first part of the third level will be displayed and waiting for the player to answer (Fig 18). The third level is a text-based math game that requires the user to answer true or false to the math question asked. It contains two parts, displayed as levels #1 and #2 that both contain three questions that must be answered correctly in a row.
 
-![screenshot](images/puzzleImages/fourteen.png)
+![screenshot](images/puzzleImages/fourteen.png)  
 Fig 18. Start of level 3 (the math game).
 
 Getting the answers correct will prompt a short congratulatory message to pop up so the player knows the answer was right (Fig 19).
 
-![screenshot](images/puzzleImages/fifteen.png)
+![screenshot](images/puzzleImages/fifteen.png)  
 Fig 19. Correct answers.
 
 If the player gets the answer incorrect, a message informs the player what level they failed in and the math level is reset to the beginning of the level (Fig 20).
 
-![screenshot](images/puzzleImages/sixteen.png)
+![screenshot](images/puzzleImages/sixteen.png)  
 Fig 20. Incorrect answer.
 
 Any answer aside from true or false results in an error and a message pops up prompting the player for an adequate answer (Fig 21).
 
-![screenshot](images/puzzleImages/seventeen.png)
+![screenshot](images/puzzleImages/seventeen.png)  
 Fig 21. Unidentifiable answer.
 
 The player must correctly answer the total of six questions from the combined two parts to pass the entire level. Once accomplished, a winning message appears and the player can collect a key in the GUI screen to allow the third level's door to appear (Fig 22).
 
-![screenshot](images/puzzleImages/eighteen.png)
+![screenshot](images/puzzleImages/eighteen.png)  
 Fig 22. Finishing game.
 
 After passing through the door, the player has successfully completed the Puzzle Game program.
