@@ -51,34 +51,34 @@ Fig 4. Game starting screen.
 
 The first level requires a button to be pressed for the key to appear. The player will jump (Fig 5) up to the lower platform (Fig 6):
 
-![screenshot](images/one.png)  
+![screenshot](images/puzzleImages/one.png)  
 Fig 5. Player jumping to first platform.
 
-![screenshot](images/two.png)  
+![screenshot](images/puzzleImages/two.png)  
 Fig 6. Player after landing on first platform.
 
 Another obstacle is the moving platform now located to the player's right. The player must time the jump then jump on to it. Once on this platform (Fig 7), the highest ledge containing a red object is accessible (Fig 8).
 
-![screenshot](images/three.png)  
+![screenshot](images/puzzleImages/three.png)  
 Fig 7. Player after landing on moving platform.
 
-![screenshot](images/four.png)  
+![screenshot](images/puzzleImages/four.png)  
 Fig 8. Player on the highest platform next to red object.
 
 Now the player must push the red object to the floor (Fig 9) and then into the hole with the button (Fig 10).
 
-![screenshot](images/five.png)  
+![screenshot](images/puzzleImages/five.png)  
 Fig 9. Player just pushed the red object off the ledge.
 
-![screenshot](images/six.png)  
+![screenshot](images/puzzleImages/six.png)  
 Fig 10. Player pushing the red object to the hole containing the button.
 
 Successfully pressing this button causes the level's yellow key to appear (Fig 11). The player goes over it to collect it. This opens the black door and adds +1 to the key counter at the top right of the game screen (Fig 12).
 
-![screenshot](images/seven.png)  
+![screenshot](images/puzzleImages/seven.png)  
 Fig 11. Yellow key appear after the object clicks the button.
 
-![screenshot](images/eight.png)  
+![screenshot](images/puzzleImages/eight.png)  
 Fig 12. Player collects key and a black door appears.
 
 The player has completed the puzzle. Now, the player gets teleported to the next level after running through the door.
