@@ -76,7 +76,7 @@ Fig 4. Output by MSRP and electronic range.
 
 The third graph evaluates crime rates' sex difference by victim count. This data is visually observed in figure 5's graph (Fig 5). Once finished analyzing this graph, exit out of it to get to the next one.
 
-![screenshot](images/three_image.png)  
+![screenshot](images/third_image.png)  
 Fig 5. Output by sex difference and victim amount.
 
 The third graph evaluates crime rates' victim ages and races by victim count. This data is visually observed in figure 6's graph (Fig 6).  
