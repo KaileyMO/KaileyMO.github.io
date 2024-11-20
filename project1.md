@@ -83,6 +83,60 @@ Fig 12. Player collects key and a black door appears.
 
 The player has completed the puzzle. Now, the player gets teleported to the next level after running through the door.
 
+### Level 2:
+
+The second level contains four small squares bouncing around the box that the game takes place in/the player walks around in. The goal is to change the colors of the squares so that the four colors of the bouncing squares matches with the colors of the static squares at the bottom of the screen, below the playable area. As the round begins, only one square is visible and bouncing around the area (Fig 13).
+
+![screenshot](images/puzzleImages/nine.png)  
+Fig 13. The starting position of the second level.
+
+As the color of the bouncing cube is first changed, another bouncing square is introduced until both the squares get their colors changed enough for all the four squares to begin bouncing (Fig 14). Colors change as the player touches the squares, so the player will jump around until all the squares are at the correct colors.
+
+![screenshot](images/puzzleImages/ten.png)
+Fig 14. Game running with the player trying to accurately convert the square colors.
+
+![screenshot](images/puzzleImages/eleven.png)
+Fig 15. Additional action shot of player attempting to change the square colors.
+
+After the colors are all matching (1 yellow, 1 red, 2 purples), all the squares turn permanently yellow and a key appears on the floor (Fig 16). Collecting the key opens the black door and adds +1 to the key counter at the top right of the game screen (Fig 17).
+
+![screenshot](images/puzzleImages/twelve.png)
+Fig 16. Puzzle completed and a key has appeared.
+
+![screenshot](images/puzzleImages/thirteen.png)
+Fig 17. Player collected the key.
+
+The player has completed the puzzle. Going through the open door leads to the third and final puzzle.
+
+### Level 3
+
+This third puzzle is unique because it does not take place in the typical GUI format. Instead, temporarily leave the GUI and go to the text editor from where the program has been run. The first part of the third level will be displayed and waiting for the player to answer (Fig 18). The third level is a text-based math game that requires the user to answer true or false to the math question asked. It contains two parts, displayed as levels #1 and #2 that both contain three questions that must be answered correctly in a row.
+
+![screenshot](images/puzzleImages/fourteen.png)
+Fig 18. Start of level 3 (the math game).
+
+Getting the answers correct will prompt a short congratulatory message to pop up so the player knows the answer was right (Fig 19).
+
+![screenshot](images/puzzleImages/fifteen.png)
+Fig 19. Correct answers.
+
+If the player gets the answer incorrect, a message informs the player what level they failed in and the math level is reset to the beginning of the level (Fig 20).
+
+![screenshot](images/puzzleImages/sixteen.png)
+Fig 20. Incorrect answer.
+
+Any answer aside from true or false results in an error and a message pops up prompting the player for an adequate answer (Fig 21).
+
+![screenshot](images/puzzleImages/seventeen.png)
+Fig 21. Unidentifiable answer.
+
+The player must correctly answer the total of six questions from the combined two parts to pass the entire level. Once accomplished, a winning message appears and the player can collect a key in the GUI screen to allow the third level's door to appear (Fig 22).
+
+![screenshot](images/puzzleImages/eighteen.png)
+Fig 22. Finishing game.
+
+After passing through the door, the player has successfully completed the Puzzle Game program.
+
 ## 3. Additional Considerations
 
 For the executable .jar file, it is best to run it using a system such as command prompt (cmd). This will allow the program to run the third level since the level requires a screen to print its text. In cmd, open the folder holding the .jar file and run the executable.
@@ -93,5 +147,8 @@ java -jar Puzzle_Game_GUI_Finished.jar
 ```
 
 Additionally, this executable may require Java JDK 20 to be run on. That may be downloaded with [oracle](https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html) if necessary.
+
+
+Be aware that the third level is not in the Puzzle Game GUI tab, but instead is composed of text to screen. The user will need to temporarily leave GUI and go to where the program is running to complete the last puzzle with text.
 
 [Back to Portfolio](./)
