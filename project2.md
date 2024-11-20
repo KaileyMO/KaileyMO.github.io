@@ -34,17 +34,31 @@ Now, run this code through "Run module", or F5 (Fig 2).
 ![screenshot](images/run_python2.png)  
 Fig 2. Run code step 2
 
+### Install
+
+This coding project itself uses libraries such as "requests" and "beautifulsoup", so the system may need to have them installed to run this program. Here are examples of how to install to the system:
+
+```bash
+pip install requests
+
+pip install beautifulsoup4
+```
+
+This can work with the IDLE operator as well; input the file explorer's .py file location into Command Prompt, which is found by inputting cmd in the window's search feature, and type the installations there.
+
+```bash
+cd ./folder-with-code
+
+pip install requests
+
+pip install beautifulsoup4
+```
+
 ## UI Design
 
 This project prints information to the screen. It looks through the list of jobs from the website [pythonjobs.github.io](https://pythonjobs.github.io/), and picks out three favored jobs from the list. After running the program, the lists are displayed that the user can analyze (Fig 3).
 
 ![screenshot](images/webscraping_icon.png)  
 Fig 3. The display screen
-
-## 3. Additional Considerations
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 [Back to Portfolio](./)
