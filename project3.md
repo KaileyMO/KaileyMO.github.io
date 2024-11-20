@@ -49,7 +49,9 @@ This can work with the IDLE operator as well; input the file explorer's .py file
 ```bash
 cd ./folder-with-code
 
-{pip installations}
+pip install requests
+
+pip install beautifulsoup4
 ```
 
 ## UI Design
