@@ -53,6 +53,7 @@ Presentations
 
 ### [Vehicle and Crime​ Python Analysis Presentation](/pdf/AIProj1Slides.pdf)
 
+- [Video Presentation- my presentation is the first one and ends around minute 14](https://www.youtube.com/watch?v=-q5QQ_WmAlw)
 - **Class: Fund of Artificial Intelligence (CSCI 409)** 
 - **Grade: 100**
 
