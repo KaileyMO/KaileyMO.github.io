@@ -19,16 +19,26 @@ Move right- D
 Jump- W  
 Open menu- Shift
 
+This was a group project, so I did not create the entire game but instead primarily constructed the second level and connected all three levels cohesively.
+
 ## How to compile and run the program
 
-How to compile (if applicable) and run the project.
+To run this program, your device must have Java installed. This program is created on [Netbeans 19](https://netbeans.apache.org/front/main/download/nb19/), so Java JDK 20 should be adequate. Java 20 can be downloaded with [oracle](https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html) if necessary.
 
-```bash
-cd ./project
-python setup.py
-```
+Assuming Netbeans is the preferred method for compiling and running this program, after its installation, open the application and drag the folder of the unzipped source code for this project into the starter Netbeans space (Fig 1).
 
-If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
+![screenshot](images/netbeanInstallation)  
+Fig 1. Drag the code folder into Netbeans.
+
+Access the Puzzle_Game_GUI_Finished -> Source Packages -> <default package> and click on one of the .java files, such as Panel.java. This opens the class's code and will run the project it is connected to (Fig 2).
+
+![screenshot](images/netbeanInstallation2)  
+Fig 2. Opens a file from the project.
+
+Click the green arrow at the top of the program to run it (Fig 3).
+
+![screenshot](images/netbeanInstallation3)  
+Fig 3. Runs project.
 
 ## UI Design
 
@@ -51,7 +61,14 @@ Fig 3. Feedback when an error occurs.
 
 ## 3. Additional Considerations
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+For the executable .jar file, it is best to run it using a system such as command prompt (cmd). This will allow the program to run the third level since the level requires a screen to print its text. In cmd, open the folder holding the .jar file and run the executable.
+
+```bash
+cd ./folder-with-project
+java -jar Puzzle_Game_GUI_Finished.jar
+```
+
+Additionally, this executable may require Java JDK 20 to be run on. That may be downloaded with [oracle](https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html) if necessary.
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
