@@ -15,14 +15,42 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## How to compile and run the program
 
-How to compile (if applicable) and run the project.
+To run this python program, open up an operating system that runs python and go to the folder containing the code file. For an operating system, type something like this to access and then run the program:
 
 ```bash
-cd ./project
-python setup.py
+cd ./folder-with-code
+python statistics_analysis.py
 ```
 
-If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
+If you need software to run python, here is a sufficient system that installs and runs python code, called IDLE: [IDLE download](https://www.python.org/downloads/)
+
+Once downloaded, go to the source code repository and download the .py file containing this program's code. Right click this downloaded file and select "Edit with IDLE {IDLE version}" (Fig 1).
+
+![screenshot](images/run_python1.png)  
+Fig 1. Run code step 1  
+
+Now, run this code through "Run module", or F5 (Fig 2).
+
+### Install
+
+This coding project itself uses libraries such as "requests" and "beautifulsoup", so the system may need to have them installed to run this program. Here are examples of how to install to the system:
+
+'''bash
+pip install requests
+
+pip install beautifulsoup4
+'''
+
+This can work with the IDLE operator as well; input the file explorer's .py file location into Command Prompt, which is found by inputting cmd in the window's search feature, and type the installations there.
+
+'''bash
+cd ./folder-with-code
+
+{pip installations}
+'''
+
+![screenshot](images/run_python2.png)  
+Fig 2. Run code step 2
 
 ## UI Design
 
