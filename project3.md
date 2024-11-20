@@ -35,19 +35,19 @@ Now, run this code through "Run module", or F5 (Fig 2).
 
 This coding project itself uses libraries such as "requests" and "beautifulsoup", so the system may need to have them installed to run this program. Here are examples of how to install to the system:
 
-'''bash
+```bash
 pip install requests
 
 pip install beautifulsoup4
-'''
+```
 
 This can work with the IDLE operator as well; input the file explorer's .py file location into Command Prompt, which is found by inputting cmd in the window's search feature, and type the installations there.
 
-'''bash
+```bash
 cd ./folder-with-code
 
 {pip installations}
-'''
+```
 
 ![screenshot](images/run_python2.png)  
 Fig 2. Run code step 2
