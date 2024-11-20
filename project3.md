@@ -31,6 +31,9 @@ Fig 1. Run code step 1
 
 Now, run this code through "Run module", or F5 (Fig 2).
 
+![screenshot](images/run_python2.png)  
+Fig 2. Run code step 2
+
 ### Install
 
 This coding project itself uses libraries such as "requests" and "beautifulsoup", so the system may need to have them installed to run this program. Here are examples of how to install to the system:
@@ -48,9 +51,6 @@ cd ./folder-with-code
 
 {pip installations}
 ```
-
-![screenshot](images/run_python2.png)  
-Fig 2. Run code step 2
 
 ## UI Design
 
