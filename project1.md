@@ -25,7 +25,7 @@ This was a group project, so I did not create the entire game but instead primar
 
 To run this program, your device must have Java installed. This program is created on [Netbeans 19](https://netbeans.apache.org/front/main/download/nb19/), so Java JDK 20 should be adequate. Java 20 can be downloaded with [oracle](https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html) if necessary.
 
-Assuming Netbeans is the preferred method for compiling and running this program, after its installation, open the application and drag the folder of the unzipped source code for this project into the starter Netbeans space (Fig 1).
+Assuming Netbeans is the preferred method for compiling and running this program, after its installation, open the application and drag the folder of this project's unzipped source code into the starter Netbeans space (Fig 1).
 
 ![screenshot](images/netbeanInstallation.png)  
 Fig 1. Drag the code folder into Netbeans.
@@ -42,22 +42,46 @@ Fig 3. Runs project.
 
 ## UI Design
 
-Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
+There are three levels. The game revolves around this 2-D animated setup (Fig 4), which is the starting position upon loading up the game, where most every object is created from squares. The blue square is the player character and other objects have unique characteristics, like some move on their own and others can be touched by the player.
+
+![screenshot](images/puzzle_game_start.png)  
+Fig 4. Game starting screen.
 
 ### Level 1:
 
-The first level requires a button to be pressed for the key to appear. The player will jump up to the lower platform:
+The first level requires a button to be pressed for the key to appear. The player will jump (Fig 5) up to the lower platform (Fig 6):
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
+![screenshot](images/one.png)  
+Fig 5. Player jumping to first platform.
 
-Another obstacle is the moving platform now located to the player's right. The player must time the jump then jump on to it. Once on this platform, the highest ledge containing a red object is accessible.
+![screenshot](images/two.png)  
+Fig 6. Player after landing on first platform.
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
+Another obstacle is the moving platform now located to the player's right. The player must time the jump then jump on to it. Once on this platform (Fig 7), the highest ledge containing a red object is accessible (Fig 8).
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
+![screenshot](images/three.png)  
+Fig 7. Player after landing on moving platform.
+
+![screenshot](images/four.png)  
+Fig 8. Player on the highest platform next to red object.
+
+Now the player must push the red object to the floor (Fig 9) and then into the hole with the button (Fig 10).
+
+![screenshot](images/five.png)  
+Fig 9. Player just pushed the red object off the ledge.
+
+![screenshot](images/six.png)  
+Fig 10. Player pushing the red object to the hole containing the button.
+
+Successfully pressing this button causes the level's yellow key to appear (Fig 11). The player goes over it to collect it. This opens the black door and adds +1 to the key counter at the top right of the game screen (Fig 12).
+
+![screenshot](images/seven.png)  
+Fig 11. Yellow key appear after the object clicks the button.
+
+![screenshot](images/eight.png)  
+Fig 12. Player collects key and a black door appears.
+
+The player has completed the puzzle. Now, the player gets teleported to the next level after running through the door.
 
 ## 3. Additional Considerations
 
@@ -69,7 +93,5 @@ java -jar Puzzle_Game_GUI_Finished.jar
 ```
 
 Additionally, this executable may require Java JDK 20 to be run on. That may be downloaded with [oracle](https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html) if necessary.
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 [Back to Portfolio](./)
