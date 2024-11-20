@@ -11,7 +11,7 @@ Data Analysis
 
 ## Project description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This program collects data from a [government website](https://catalog.data.gov/dataset/) and creates analytical graphs from this information. The primary focus is on two different datasets to be analyzed: electronic vehicle statistics and crime rate. The electronic vehicle data is from the State of Washington and the crime rate data is from the City of Los Angelos. Four total graphs are created and the two datasets both get two graphs each. For the electronic vehicles, the first graph analyzes the model year by electronic range and the second graph analyzes the base MSRP by electronic range. The first crime statistics graph analyzes victim amount by sex and the second crime data graph analyzes victim amount by age and race.
 
 ## How to compile and run the program
 
@@ -39,8 +39,9 @@ Fig 2. Run code step 2
 This coding project itself uses libraries such as "requests" and "beautifulsoup", so the system may need to have them installed to run this program. Here are examples of how to install to the system:
 
 ```bash
+pip install matplotlib
+pip install pandas
 pip install requests
-
 pip install beautifulsoup4
 ```
 
@@ -49,25 +50,46 @@ This can work with the IDLE operator as well; input the file explorer's .py file
 ```bash
 cd ./folder-with-code
 
+pip install matplotlib
+pip install pandas
 pip install requests
-
 pip install beautifulsoup4
 ```
 
 ## UI Design
 
-Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
+This program creates four total graphs. They pop up one at a time so the user will need to exit out of the images as they pop up to get to the next graph.
 
-Lorem ipsum dolor sit amet (see Fig 1), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat (see Fig 2). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see Fig 3).
+### Electronic Vehicles
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
+The first graph evaluates electronic vehicles' model year by electronic range. This data is visually observed in figure 3's graph (Fig 3). Once finished analyzing this graph, exit out of it to get to the next one.
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
+![screenshot](images/first_image.png)  
+Fig 3. Output by model year and electronic range.
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
+The second graph evaluates electronic vehicles' base MSRP by electronic range. This data is visually observed in figure 4's graph (Fig 4). Once finished analyzing this graph, exit out of it to get to the next one.
+
+![screenshot](images/second_image.png)  
+Fig 4. Output by MSRP and electronic range.
+
+### Crime Rates
+
+The third graph evaluates crime rates' sex difference by victim count. This data is visually observed in figure 5's graph (Fig 5). Once finished analyzing this graph, exit out of it to get to the next one.
+
+![screenshot](images/three_image.png)  
+Fig 5. Output by sex difference and victim amount.
+
+The third graph evaluates crime rates' victim ages and races by victim count. This data is visually observed in figure 6's graph (Fig 6).  
+The races are distributed via color coding, which has a key at the top right of the graph displaying what descent each color represents. Here is further clarification for what the answer key means:
+
+```bash
+Descent Code: A - Other Asian B - Black C - Chinese D - Cambodian F - Filipino G - Guamanian H - Hispanic/Latin/Mexican I - American Indian/Alaskan Native J - Japanese K - Korean L - Laotian O - Other P - Pacific Islander S - Samoan U - Hawaiian V - Vietnamese W - White X - Unknown Z - Asian Indian
+```
+
+Once finished analyzing this graph, exit out of it to end the program's run.
+
+![screenshot](images/fourth_image.png)  
+Fig 6. Output by ages and races by victim count.
 
 ## 3. Additional Considerations
 
