@@ -1,6 +1,6 @@
 [Back to Portfolio](./)
 
-Machine Learning Project
+Machine Learning Project | CSCI 409
 ===============
 
 -   **Class: Fund of Artificial Intelligence (CSCI 409)** 
