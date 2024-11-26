@@ -52,8 +52,6 @@ pip install pandas numpy scikit-learn matplotlib requests scipy
 
 ## UI Design
 
-Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
-
 This program prints out whichever learning module it is working on to the screen (Fig 3). This shows the process and steps that the code is currently on as the models are training.
 
 ![screenshot](images/aiProj2pt12.png)  
