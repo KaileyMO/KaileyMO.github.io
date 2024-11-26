@@ -58,9 +58,9 @@ Presentations
 - **Grade: 100**
 
 
-### [Presentation 2- upcoming presentation on the 25th that my professor has approved to be used](/pdf/sample_presentation.pdf)
+### [Machine Learning Presentation](/pdf/aiProj2Slides.pdf)
 
-- **Class:** 
+- **Class: Fund of Artificial Intelligence (CSCI 409)** 
 - **Grade:**
 
 ---
