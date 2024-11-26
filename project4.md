@@ -1,28 +1,54 @@
 [Back to Portfolio](./)
 
-Project 4 Title
+Machine Learning Project
 ===============
 
--   **Class:** 
+-   **Class: Fund of Artificial Intelligence (CSCI 409)** 
 -   **Grade:** 
--   **Language(s):** 
--   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
-    (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
+-   **Language(s): Python** 
+-   **Source Code Repository:** [Machine Learning Code](https://github.com/KaileyMO/ai_machine_learning)  
+    (Please [email me](mailto:kmowens@csustudent.net?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This project collects data from a dataset and then uses this data for machine learning. The program reads in from a dataset and splits it up to test and train multiple models to find the most highly predictable consistencies within the dataset. One of this program's goals is to discover if there is a correlation between an increased abstract count and an increased citation count within the dataset. Around six graphs are created based on these values.
 
 ## How to compile and run the program
 
-How to compile (if applicable) and run the project.
+To run this python program, open up an operating system that runs python and go to the folder containing the code file. For an operating system, type something like this to access and then run the program:
 
 ```bash
-cd ./project
-python setup.py
+cd ./folder-with-code
+python machine_learning.py
 ```
 
-If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
+If you need software to run python, here is a sufficient system that installs and runs python code, called IDLE: [IDLE download](https://www.python.org/downloads/)
+
+Once downloaded, go to the source code repository and download the .py file containing this program's code. Right click this downloaded file and select "Edit with IDLE {IDLE version}" (Fig 1).
+
+![screenshot](images/run_python1.png)  
+Fig 1. Run code step 1  
+
+Now, run this code through "Run module", or F5 (Fig 2).
+
+![screenshot](images/run_python2.png)  
+Fig 2. Run code step 2
+
+### Install
+
+This coding project itself uses libraries such as "requests" and "beautifulsoup", so the system may need to have them installed to run this program. Here are examples of how to install to the system:
+
+```bash
+pip install pandas numpy scikit-learn matplotlib requests scipy
+```
+
+This can work with the IDLE operator as well; input the file explorer's .py file location into Command Prompt, which is found by inputting cmd in the window's search feature, and type the installations there.
+
+```bash
+cd ./folder-with-code
+
+pip install pandas numpy scikit-learn matplotlib requests scipy
+```
 
 ## UI Design
 
@@ -41,8 +67,6 @@ Fig 3. Feedback when an error occurs.
 
 ## 3. Additional Considerations
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+This program requires a csv file titled "papers.csv" to be in the same location as the running code for it to work. Download it in the source code's repository for the program to work as intended.
 
 [Back to Portfolio](./)
