@@ -22,9 +22,9 @@ Programming Projects
 ![Project 3 Thumbnail Name](images/first_image.png)
 
 ---
-### [Project 4-In Progress with Permission from Instructor](project4)
+### [Machine Learning Project](project4)
 
-![Project 4 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Project 4 Thumbnail Name](images/aiProj2pt6.png)
 
 ---
 
