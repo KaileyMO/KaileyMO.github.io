@@ -54,16 +54,42 @@ pip install pandas numpy scikit-learn matplotlib requests scipy
 
 Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
 
-Lorem ipsum dolor sit amet (see Fig 1), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat (see Fig 2). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see Fig 3).
+This program prints out whichever learning module it is working on to the screen (Fig 3). This shows the process and steps that the code is currently on as the models are training.
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
+![screenshot](images/aiProj2pt12.png)  
+Fig 3. Learning process.
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
+The first graph appears after the training models finish running. This graph compares the citation count of a single fetched paper with the predictions of the models from a separate dataset (Fig 4). Close out of this graph to continue.
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
+![screenshot](images/aiProj2pt4.png)  
+Fig 4. Prediction vs actual.
+
+Next, a pair of graphs show up analyzing the abstract/title length compared to the citation length (Fig 5). Close out of this graph to continue.
+
+![screenshot](images/aiProj2pt6.png)  
+Fig 5. Title/abstract vs citation.
+
+Now, this graph compares a single fetched paper's title, abstract, and citation count (Fig 6). Close out of this graph to continue.
+
+![screenshot](images/aiProj2pt8.png)  
+Fig 6. Title/abstract/citation.
+
+The final two graphs are similar decision trees. They examine what are the most important features from the searched dataset when it comes to the prior training, so it examines which words have the strongest recurrence or impact. The first graph looks through as the decision tree regressor (Fig 7). Close out of this graph to continue.
+
+![screenshot](images/aiProj2pt9.png)  
+Fig 7. Decision tree regressor.
+
+This second tree analyzes the important features for the machine learning as a Random forest regressor (Fig 8). Close out of this graph to exit out of the graphs.
+
+![screenshot](images/aiProj2pt10.png)  
+Fig 8. Random forest regressor.
+
+After all the models and visualizations are complete, this program ends on analyzing the model's performance through MAE and Log-MAE (Fig 9).
+
+![screenshot](images/aiProj2pt11.png)  
+Fig 9. Performances.
+
+Thus concludes this program.
 
 ## 3. Additional Considerations
 
