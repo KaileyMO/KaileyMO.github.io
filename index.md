@@ -4,7 +4,7 @@ Portfolio
 Programming Projects
 --------------------
 
-*For access to my private project repositories, please [email me](mailto:kmowens@csustudent.net?subject=GitHub%20Access) with the subject line, GitHub Access.
+Senior Project Documentation: ![senior project documentation](https://github.com/KaileyMO/Time-Management-Project/tree/main/docs/time_management_documentation.md)
 
 ---
 ### [Puzzle Game Program | CSCI 325](project1)
